@@ -1,5 +1,5 @@
 import { deleteTask } from "../services/task.service";
-import "./assets/css/Task.css";
+import "../assets/css/Task.css";
 
 const TaskList = ({
   tasks,
@@ -28,7 +28,7 @@ const TaskList = ({
               Status: <i>{task.status}</i>
             </p>
             <button onClick={() => onClickEdit(task)}>Edit</button>
-            <button onClick={() => onClickDelete(task)} className="taskButton">
+            <button onClick={() => onClickDelete(task)} className="marginLeft">
               Delete
             </button>
           </div>

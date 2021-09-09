@@ -1,3 +1,34 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "title": "Morning",
+      "description": "Walk",
+      "status": "Done",
+      "id": 1
+    },
+    {
+      "title": "Noon",
+      "description": "Bath, Prayer, Lunch",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "title": "Afternoon",
+      "description": "Playing",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "title": "Evening",
+      "description": "Study",
+      "status": "Done",
+      "id": 4
+    },
+    {
+      "title": "Night",
+      "description": "Sleep",
+      "status": "Active",
+      "id": 5
+    }
+  ]
 }

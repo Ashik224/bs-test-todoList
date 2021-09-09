@@ -28,7 +28,7 @@ const TaskModal = ({
         onRequestClose={closeModal}
         ariaHideApp={false}
       >
-        <h4>Create Task</h4>
+        <h4>{buttonLabel} Task</h4>
         <hr /> <br /> <br />
         <form onSubmit={handleSubmit}>
           <CustomInputField

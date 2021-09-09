@@ -1,9 +1,9 @@
 .cardDesign {
     background-color: lightgrey;
-    width: 35%;
-    margin: auto;
+    width: 60%;
+    /* margin: auto; */
 }
 
-.taskButton {
+.marginLeft {
     margin-left: 10px;;
 }

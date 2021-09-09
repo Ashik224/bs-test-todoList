@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/css/CreateTask.css";
+import "../assets/css/TaskModal.css";
 
 const CustomInputField = ({
   type,
