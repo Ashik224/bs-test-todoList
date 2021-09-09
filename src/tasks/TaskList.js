@@ -1,14 +1,11 @@
-import { useState } from "react";
-import { deleteTask } from "./services/task.service";
-import "./Task.css";
+import { deleteTask } from "../services/task.service";
+import "./assets/css/Task.css";
 
 const TaskList = ({
   tasks,
   removeTask,
   updateModalState,
-  taskModal,
-  openModal,
-  closeModal,
+  openModal
 }) => {
   const onClickEdit = async (task) => {
     updateModalState(task);

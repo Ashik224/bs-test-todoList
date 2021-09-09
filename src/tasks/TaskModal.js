@@ -1,9 +1,9 @@
 import React from "react";
 import Modal from "react-modal";
-import CustomInputField from "./CustomInputField";
-import CustomRadioField from "./CustomRadioField";
-import CustomTextareaField from "./CustomTextareaField";
-import { customStyles } from "./ModalStyle";
+import CustomInputField from "../formComponents/CustomInputField";
+import CustomRadioField from "../formComponents/CustomRadioField";
+import CustomTextareaField from "../formComponents/CustomTextareaField";
+import { customStyles } from "../assets/styles/ModalStyle";
 
 const statusArray = [
   { label: "Active", id: "active", value: "Active" },

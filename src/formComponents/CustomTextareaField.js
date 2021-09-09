@@ -1,5 +1,5 @@
 import React from 'react'
-import './CreateTask.css'
+import './assets/css/CreateTask.css'
 
 const CustomTextareaField = ({label, id, classLabel, name, value, handleChange, error}) => {
     return (

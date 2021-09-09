@@ -1,9 +1,8 @@
-import "./App.css";
 import { useState, useEffect } from "react";
-import TaskModal from "./TaskModal";
-import { validateForm } from "./validateCreateForm";
+import TaskModal from "./tasks/TaskModal";
+import { validateForm } from "./tasks/validateCreateForm";
 import { getTasks, postTask, updateTask } from "./services/task.service";
-import TaskList from "./TaskList";
+import TaskList from "./tasks/TaskList";
 
 function App() {
   const [taskModal, setTaskModal] = useState(false);
