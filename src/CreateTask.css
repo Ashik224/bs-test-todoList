@@ -1,0 +1,29 @@
+.labelMarginTitle {
+    margin-right: 65px;
+}
+
+.labelMarginDescription {
+    margin-right: 20px;
+}
+
+.labelMarginStatus {
+    margin-right: 40px;
+}
+
+.labelMarginRadioLabel {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.errorMessage {
+    color: red;
+    margin-left: 95px;
+}
+
+.submitButton {
+    margin-left: 80px;
+}
+
+.cancelButton {
+    margin-left: 20px;
+}
